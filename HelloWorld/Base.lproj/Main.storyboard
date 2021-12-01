@@ -28,6 +28,9 @@
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show text"/>
+                                <connections>
+                                    <action selector="showTextButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="O2a-Ce-Bxy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -40,6 +43,10 @@
                             <constraint firstItem="kIt-VI-Yr4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="132" id="vGl-Hc-LEb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLablel" destination="kIt-VI-Yr4" id="ozK-29-qP5"/>
+                        <outlet property="showTextButton" destination="n5i-SY-hKr" id="8TN-Y4-6OP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
